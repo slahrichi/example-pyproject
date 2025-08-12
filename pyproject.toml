@@ -1,0 +1,19 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+    "setuptools",
+]
+
+[project]
+name = "example-pyproject"
+version = "0.0.1"
+description = "Example packaging project"
+license = "MIT"
+license-files = ["LICENSE.txt"]
+authors = [
+    {name = "Maggie May", email="maggie.may@gmail.com"}
+]
+keywords = ["packaging"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+]
